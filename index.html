@@ -1,0 +1,47 @@
+<!-- run this to : E:\projectss\Bulb light\index.html -->
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light bulb</title>
+    ,
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="light-off-on"> Light ON OFF </h1>
+    <div></div>
+    <main class="main">
+        <figure>
+            <img src="bulb1.jpg" id="bulb1" style="height:350px; width:250px;">
+        </figure>
+        <figure>
+            <img src="bulb1.jpg" id="bulb2" style="height:350px; width:250px;" onclick="tubelight()">
+        </figure>
+        <figure>
+            <img src="bulb1.jpg" id="bulb3" style="height:350px; width:250px;" onclick="tubelight()">
+        </figure>
+        <figure>
+            <img src="bulb1.jpg" id="bulb4" style="height:350px; width:250px;" onclick="tubelight()">
+        </figure>
+    </main>
+    <div class="heading">
+        <h2> ON/OFF BUTTON</h2>
+    </div>
+    <div>
+        <div class="toogle">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider" onclick="tubelight()"></span>
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
